@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Fraunces 9pt';
+    src: url('../fonts/Fraunces9pt-Black.woff2') format('woff2'),
+        url('../fonts/Fraunces9pt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Regular.woff2') format('woff2'),
+        url('../fonts/Barlow-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('../fonts/Barlow-Bold.woff2') format('woff2'),
+        url('../fonts/Barlow-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0; 
+    background: #F2F2F2;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ol, ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    align-items: center;
+    width: 1230px;
+    margin: 0% auto;
+    padding: 0px 15px;
+}
+
+.header{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.header__nav{
+    display: flex;
+    padding: 44px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    margin-right: 32px;
+}
+
+.list__item{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+}
+
+.item__link{
+    align-items: center;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    margin-left: 32px;
+}
+
+.item__link:hover{
+    color: #333D4B;
+}
+
+.item__active{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #333D4B;
+}
+
+.main__image-title{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/coffee-image-one.png");
+    border-radius: 6px;
+    background-size: 1280px 450px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main__title{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fraunces 9pt';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    padding-top: 134px;
+    padding-left: 45px;
+    padding-bottom: 32px;
+}
+
+.main__title-items{
+    width: 445px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    padding-left: 45px;
+    padding-bottom: 134px;
+}
